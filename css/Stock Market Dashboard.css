@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #bbbbbbcb;
+    display: flex;
+}
+
+.side-navbar {
+    width: 18% !important;
+    height: 100%;
+    padding: 0px 15px;
+    background-color: #fff;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.header {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    transition: all 0.3s ease-out;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header:hover {
+    transform: scale(1.1);
+}
+
+.header i {
+    padding-right: 5px;
+}
+
+.first {
+    display: flex;
+}
+
+.inv {
+    width: 65%;
+    padding-left: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.inv p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.inv .num {
+    font-weight: 900;
+}
+
+.rate {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #000000;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000000 40px), repeating-linear-gradient(#32323255, #323232);
+}
+
+.rate h5 {
+    color: #2bff00;
+    font-size: 13px;
+}
+
+.list {
+    display: flex;
+    padding-top: 15px;
+    margin-top: 5px;
+    height: 380px;
+}
+
+.list ul li {
+    flex-direction: column;
+    list-style: none;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.list ul li:hover {
+    transform: scale(1.1);
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.list ul li a i {
+    padding-right: 10px;
+}
+
+.btn {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.btn i {
+    padding-right: 5px;
+}
+
+
+
+.end ul li {
+    flex-direction: column;
+    list-style: none;
+    padding: 4px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.end ul li:hover {
+    transform: scale(1.1);
+}
+
+.end ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.end ul li a i {
+    padding-right: 5px;
+}
+
+.navbar {
+    height: 10%;
+    width: 100%;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    padding-inline: 8px;
+}
+
+.icons a i {
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+.container-fluid form button {
+    background-color: #fff;
+    color: #000000;
+}
+
+.container-fluid form button:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.portfolio .heading {
+    padding: 20px;
+}
+
+.cards {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 20px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.brand h4 i {
+    padding-right: 10px;
+}
+
+.price {
+    font-weight: 900;
+}
+
+.green {
+    color: green;
+    font-weight: 900;
+}
+
+.green i {
+    animation: up 1s infinite;
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.red {
+    color: red;
+    font-weight: 900;
+}
+
+.red i {
+    animation: down 1s infinite;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.section {
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    gap: 30px;
+}
+
+
+.graph {
+    width: 70%;
+    height: 357px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: #fff;
+}
+
+.title h3 i {
+    padding-right: 10px;
+}
+
+.graph nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 10px;
+    gap: 20px;
+}
+
+.buttons button {
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #fff;
+    color: #000000;
+    transition: all 0.3s ease-out;
+}
+
+.buttons .week {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.buttons button:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.stat img {
+    width: 100%;
+    height: 230px;
+}
+
+.watchlist {
+    background-color: #fff;
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+}
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.watch h3 {
+    color: #000;
+}
+
+.ico span a {
+    text-decoration: none;
+    color: #000;
+}
+
+.watch-cards {
+    width: 100%;
+    height: 300px;
+}
+
+.watch-card {
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.watch-card .iconn h2 {
+    font-size: 25px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.watch-card .name {
+    width: 100%;
+    justify-content: space-between;
+}
