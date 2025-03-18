@@ -359,3 +359,114 @@
     width: 100%;
     justify-content: space-between;
 }
+
+/* Media Queries for Mobile View */
+@media (max-width: 768px) {
+    .main {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .side-navbar {
+        width: 100% !important;
+        border-radius: 0px 0px 20px 20px;
+        margin-bottom: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+
+    .first{
+        display: none;
+    }
+
+    .inv {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .rate {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .list {
+        display:none ;
+    }
+
+    .list ul li a {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .end {
+        display: none;
+    }
+
+    .end ul li a {
+        font-size: 16px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .icons a {
+        font-size: 18px;
+    }
+
+    .portfolio .heading {
+        padding: 10px;
+    }
+
+    .cards {
+        gap: 10px;
+        padding: 5px;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    .graph {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .buttons{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 10px;
+    }
+
+    .buttons button {
+        padding: 5px;
+        padding-inline: 0;
+        width: fit-content;
+        font-size: 13px;
+        font-weight: 900;
+    }
+
+    .watchlist {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .watch-card .iconn h2 {
+        font-size: 20px;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+}
